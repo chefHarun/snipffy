@@ -1,0 +1,110 @@
+[
+    {
+        "id": "web-dev-fetch",
+        "title": "Fetch Data with Fetch API",
+        "description": "Using fetch to get data from an API in web development.",
+        "language": "JavaScript",
+        "code": "fetch('https://api.example.com/data').then(r => r.json()).then(console.log);",
+        "tags": [
+            "Web Development"
+        ],
+        "author": "github.com/chefharun",
+        "added_at": "2025-07-18"
+    },
+    {
+        "id": "web-design-center",
+        "title": "Center Element (Flexbox)",
+        "description": "How to center an element both vertically and horizontally.",
+        "language": "CSS",
+        "code": ".center { display: flex; justify-content: center; align-items: center; }",
+        "tags": [
+            "Web Design"
+        ],
+        "author": "github.com/chefharun",
+        "added_at": "2025-07-18"
+    },
+    {
+        "id": "js-debounce",
+        "title": "Debounce Function",
+        "description": "Run input events with a delay to prevent excessive calls.",
+        "language": "JavaScript",
+        "code": "function debounce(fn, delay) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), delay); }; }",
+        "tags": [
+            "Javascript"
+        ],
+        "author": "github.com/chefharun",
+        "added_at": "2025-07-18"
+    },
+    {
+        "id": "react-redux-selector",
+        "title": "Using useSelector",
+        "description": "Get data from Redux store using useSelector hook.",
+        "language": "JavaScript",
+        "code": "import { useSelector } from 'react-redux';\nconst value = useSelector(state => state.value);",
+        "tags": [
+            "React-Redux"
+        ],
+        "author": "github.com/chefharun",
+        "added_at": "2025-07-18"
+    },
+    {
+        "id": "ts-type",
+        "title": "Type Definition",
+        "description": "How to define a type in TypeScript.",
+        "language": "TypeScript",
+        "code": "type User = { id: number; name: string };",
+        "tags": [
+            "Typescript"
+        ],
+        "author": "github.com/chefharun",
+        "added_at": "2025-07-18"
+    },
+    {
+        "id": "db-connection",
+        "title": "PostgreSQL Connection",
+        "description": "Connect to PostgreSQL using Node.js.",
+        "language": "JavaScript",
+        "code": "const { Client } = require('pg');\nconst client = new Client();\nclient.connect();",
+        "tags": [
+            "Database"
+        ],
+        "author": "github.com/chefharun",
+        "added_at": "2025-07-18"
+    },
+    {
+        "id": "npm-install",
+        "title": "Install Package with NPM",
+        "description": "Install a package using npm.",
+        "language": "bash",
+        "code": "npm install package-name",
+        "tags": [
+            "Package"
+        ],
+        "author": "github.com/chefharun",
+        "added_at": "2025-07-18"
+    },
+    {
+        "id": "git-commit",
+        "title": "Git Commit Command",
+        "description": "Commit your changes with a message.",
+        "language": "bash",
+        "code": "git commit -m 'message'",
+        "tags": [
+            "Git"
+        ],
+        "author": "github.com/chefharun",
+        "added_at": "2025-07-18"
+    },
+    {
+        "id": "network-ping",
+        "title": "Ping Command",
+        "description": "Send a ping to a network address.",
+        "language": "bash",
+        "code": "ping 8.8.8.8",
+        "tags": [
+            "Network"
+        ],
+        "author": "github.com/chefharun",
+        "added_at": "2025-07-18"
+    }
+]
