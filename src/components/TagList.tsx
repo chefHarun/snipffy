@@ -12,11 +12,6 @@ const TAG_COLORS: Record<string, string> = {
   "Network": "bg-green-200 text-green-800"
 };
 
-interface TagListProps {
-  tags: string[];
-  selectedTag: string | null;
-  onSelect: (tag: string | null) => void;
-}
 
 const TagList: React.FC<TagListProps> = ({ tags, selectedTag, onSelect }) => {
   return (
