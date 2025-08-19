@@ -13,6 +13,12 @@ const TAG_COLORS: Record<string, string> = {
 };
 
 
+interface TagListProps {
+  tags: string[];
+  selectedTag: string | null;
+  onSelect: (tag: string | null) => void;
+}
+
 const TagList: React.FC<TagListProps> = ({ tags, selectedTag, onSelect }) => {
   return (
     <div className="flex flex-wrap gap-3 py-2">
