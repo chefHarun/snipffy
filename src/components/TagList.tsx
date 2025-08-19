@@ -10,6 +10,8 @@ const TAG_COLORS: Record<string, string> = {
   "Package": "bg-red-200 text-red-800",
   "Git": "bg-zinc-200 text-zinc-800",
   "Network": "bg-green-200 text-green-800"
+  "Other": "bg-gray-800 text-gray-800"
+  "Information": "bg-green-200 text-green-800"
 };
 
 
